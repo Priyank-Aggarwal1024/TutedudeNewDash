@@ -115,6 +115,7 @@
   font-weight: 600;
   line-height: 123%;
   width: 167px;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {

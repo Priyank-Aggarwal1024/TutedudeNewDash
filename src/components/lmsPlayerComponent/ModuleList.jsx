@@ -218,7 +218,7 @@ function ModuleList() {
                         </div>
                       </div>
                       <div className="lmsvp-module-bottom-lecture-right">
-                        {!lecture.completed ? (
+                        {lecture.completed ? (
                           <input
                             type="checkbox"
                             style={{
