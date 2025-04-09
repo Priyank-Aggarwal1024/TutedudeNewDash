@@ -1,0 +1,169 @@
+.video-frame {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  background: #fcf5fe;
+}
+
+.video-frame img {
+  width: 100%;
+  /* aspect-ratio: 16/9; */
+}
+.video-frame-content {
+  padding: 8px 21px 8px 31px;
+}
+.video-frame-content-left-title {
+  color: #800080;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.video-frame-content-left-lecture-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.video-frame-content-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.video-frame-content-right-button {
+  display: flex;
+  padding: 9.518px 16.656px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.897px;
+  border-radius: 4.759px;
+  border: 1.19px solid rgba(128, 0, 128, 0.17);
+  background: #fff;
+  cursor: pointer;
+}
+
+.video-frame-content-right-button-text {
+  color: rgba(153, 46, 157, 0.87);
+  font-family: Poppins;
+  font-size: 14.277px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.video-frame-content-bottom {
+  width: 100%;
+  padding: 3px 5px 3px 27px;
+  background: #fff;
+}
+.video-frame-content-bottom-feedback {
+  display: flex;
+  padding: 14px 12px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+}
+.video-frame-content-bottom-feedback-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.video-frame-content-bottom-feedback-left-right {
+  display: flex;
+  max-width: 566px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.video-frame-content-bottom-feedback-left-right-title {
+  color: #1b1b1d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.video-frame-content-bottom-feedback-left-right-text {
+  color: #666;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132%;
+}
+
+.video-frame-content-bottom-feedback-right-button {
+  display: flex;
+  padding: 8px 11px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 8px;
+  border: 1px solid rgba(153, 46, 157, 0.03);
+  background: rgba(244, 214, 248, 0.27);
+  color: #992e9d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123%;
+  width: 167px;
+}
+
+@media (max-width: 1024px) {
+  .video-frame {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .video-frame-content {
+    padding: 10px;
+  }
+  .video-frame-content-left-title {
+    font-size: 17px;
+  }
+  .video-frame-content-left-lecture-title {
+    font-size: 14px;
+  }
+  .video-frame-content-bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .video-frame-content-left-title {
+    font-size: 14px;
+  }
+  .video-frame-content-left-lecture-title {
+    font-size: 12px;
+  }
+  .video-frame-content-right-button-certificate {
+    display: none;
+  }
+  .video-frame-content-right-button-resources {
+    padding: 0;
+    display: flex;
+    padding: 0px 2px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}

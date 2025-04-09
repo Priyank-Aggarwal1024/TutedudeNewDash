@@ -1,0 +1,25 @@
+.lms-video-player-page {
+  width: 100%;
+  height: calc(100vh - 53px);
+  background: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+.lms-video-player-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 393px;
+  height: calc(100% - 63px);
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .lms-video-player-page {
+    height: unset;
+  }
+  .lms-video-player-container {
+    display: flex;
+    flex-direction: column;
+    height: unset;
+  }
+}
