@@ -1,9 +1,10 @@
-import { bronzeMedal, fire, emerald, BackSvg, SmallDownSvg } from "@/assets";
+// import { bronzeMedal, fire, emerald, BackSvg, SmallDownSvg } from "@/assets";
+import { BackSvg } from "@/assets";
 import "@/assets/styles/LmsVideoTopbar.css";
 import { useSelector } from "react-redux";
 function LmsVideoTopbar() {
   const { progress, course } = useSelector((state) => state.course);
-  const user = useSelector((state) => state.user.user);
+  // const user = useSelector((state) => state.user.user);
   return (
     <div className="lms-video-topbar">
       <div className="lms-video-topbar-left flex items-center">
@@ -13,7 +14,9 @@ function LmsVideoTopbar() {
         </h2>
       </div>
       <div className="lms-video-topbar-right flex items-center">
-        <div className="lms-video-topbar-right-options">
+        {/* Comment this section for now */}
+
+        {/* <div className="lms-video-topbar-right-options">
           <div className="lms-video-topbar-right-options-item lms-video-topbar-right-options-streak">
             <img src={fire} alt="fire" />
             <p className="lms-video-topbar-right-options-item-title fw-400">
@@ -44,7 +47,10 @@ function LmsVideoTopbar() {
             </p>
             <SmallDownSvg />
           </div>
-        </div>
+        </div> */}
+
+        {/* Comment this section for now */}
+
         <div className="lms-video-topbar-right-progress">
           <div className="lms-video-topbar-right-progress-title-container flex justify-between items-center">
             <p className="lms-video-topbar-right-progress-title">

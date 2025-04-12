@@ -1,10 +1,16 @@
 import { useDispatch, useSelector } from "react-redux";
-import "../../assets/styles/ModuleList.css";
+import "@/assets/styles/ModuleList.css";
 import { DownSvg, PlayIconSvg, emerald, StatusSvg } from "@/assets";
 import { useState } from "react";
-import { setCurrentWatching } from "@/features/course/courseSlice";
+import {
+  setCurrentWatching,
+  setDeleteProgress,
+} from "@/features/course/courseSlice";
 function ModuleList() {
-  const { currentWatching, course } = useSelector((state) => state.course);
+  const dispatch = useDispatch();
+  const { currentWatching, course, userProgress, deleteProgress } = useSelector(
+    (state) => state.course
+  );
   const _moduleList = course?.sections?.map((section) => {
     let obj;
     if (!section["assignment_id"]) {
@@ -14,7 +20,8 @@ function ModuleList() {
           isActive:
             lecture.lecture_no === currentWatching.lecture_no &&
             section.section_no === currentWatching.section_no,
-          completed: false,
+          completed:
+            userProgress?.completed?.some((l) => l === lecture._id) || false,
         };
       });
       const completed = _lectureList.reduce(
@@ -50,8 +57,31 @@ function ModuleList() {
       assignment_no: 1,
     },
   ]);
-  const dispatch = useDispatch();
   const handleLectureClick = (module, lecture) => {
+    if (lecture.completed) {
+      if (deleteProgress.some((item) => item.id === lecture._id)) {
+        return;
+      }
+      dispatch(
+        setDeleteProgress([
+          ...deleteProgress,
+          {
+            title: lecture.lecture_name,
+            id: lecture._id,
+            moduleNumber: module.section_no,
+            moduleTitle: module.section_name,
+            lessonId: lecture._id,
+          },
+        ])
+      );
+      console.log({
+        title: lecture.lecture_name,
+        id: lecture._id,
+        moduleNumber: module.section_no,
+        moduleTitle: module.section_name,
+        lessonId: lecture._id,
+      });
+    }
     dispatch(
       setCurrentWatching({
         ...currentWatching,
@@ -59,6 +89,7 @@ function ModuleList() {
         lecture_no: lecture.lecture_no,
         lecture_name: lecture.lecture_name,
         section_name: module.section_name,
+        lecture_id: lecture._id,
       })
     );
   };

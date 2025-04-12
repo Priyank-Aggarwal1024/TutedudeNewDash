@@ -1,0 +1,134 @@
+.share-on-linkedin-comp {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000056;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 10px;
+}
+
+.share-on-linkedin {
+  border-radius: 8.595px;
+  background: #fff;
+  padding: 15px 16px 11px 16px;
+  display: flex;
+  max-width: 356px;
+  height: 557px;
+  max-height: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  overflow-y: auto;
+}
+.share-on-linkedin-header {
+  color: #992e9d;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.share-on-linkedin-body {
+  color: #5f5e5e;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: -0.24px;
+}
+
+.share-on-linkedin-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.share-iit-delhi-alumni-initiative {
+  font-family: Poppins;
+  font-size: 8.348px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.083px;
+  background: linear-gradient(
+    100deg,
+    #b1b1b1 0.89%,
+    #bdbdbd 9.58%,
+    #ebe6e6 26.9%,
+    #fff 44.84%,
+    #f0f0f0 64.21%,
+    #cbcbcb 84.67%,
+    #bebebe 102.86%
+  );
+  display: flex;
+  width: 131.288px;
+  padding: 3.794px 3.968px;
+  background-clip: text;
+  border-radius: 5.692px;
+  border: 0.379px solid var(--Group-Linear, #b1b1b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 15px;
+}
+.share-linkedin-body {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.098px;
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+.share-linkedin-body-text {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25.433px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.272px;
+}
+.share-linkedin-body-course {
+  color: #fbf0bd;
+  text-align: center;
+  text-shadow: 0px 1.199px 8.063px rgba(255, 185, 18, 0.72);
+  font-family: Montserrat;
+  font-size: 38.367px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.918px;
+}
+.share-on-linkedin-button {
+  display: flex;
+  width: 92px;
+  padding: 7px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #b73bbe 0%, #992e9d 93.51%);
+  box-shadow: 0px 8px 24px -10px rgba(153, 46, 157, 0.5);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: capitalize;
+  margin-left: auto;
+  cursor: pointer;
+}

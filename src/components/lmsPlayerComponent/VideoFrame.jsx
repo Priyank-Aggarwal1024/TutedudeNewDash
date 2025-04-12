@@ -1,16 +1,31 @@
-import "../../assets/styles/VideoFrame.css";
+import "@/assets/styles/VideoFrame.css";
 import {
   videoFrame,
   DownloadSvg,
   FeedbackIconSvg,
   RightArrowSvg,
 } from "@/assets";
-import { useSelector } from "react-redux";
-function VideoFrame() {
+import { useDispatch, useSelector } from "react-redux";
+import { setIsFeedbackOpen } from "@/features/comp/compSlice";
+import Video from "./Video";
+function VideoFrame({ email, slug, updateUserProgress }) {
   const currentWatching = useSelector((state) => state.course.currentWatching);
+  const dispatch = useDispatch();
+  console.log(currentWatching);
+  const newUrl = `https://storage.googleapis.com/tutedude694/testing/Tableau/${
+    currentWatching?.lecture_name
+      ? encodeURIComponent(currentWatching.lecture_name)
+      : "The%20Business%20Challenge%20-%20Who%20Gets%20the%20Annual%20Reward"
+  }/manifest.mpd`;
   return (
     <div className="video-frame">
-      <img src={videoFrame} alt="video-frame" />
+      {/* <img src={videoFrame} alt="video-frame" /> */}
+      <Video
+        email={email}
+        url={newUrl}
+        currentWatching={currentWatching}
+        updateUserProgress={updateUserProgress}
+      />
       <div className="video-frame-content flex justify-between items-center">
         <div className="video-frame-content-left">
           <h2 className="video-frame-content-left-title">
@@ -50,7 +65,10 @@ function VideoFrame() {
               </div>
             </div>
           </div>
-          <div className="video-frame-content-bottom-feedback-right-button">
+          <div
+            className="video-frame-content-bottom-feedback-right-button"
+            onClick={() => dispatch(setIsFeedbackOpen(true))}
+          >
             <span>Give your feedback</span>
             <RightArrowSvg />
           </div>

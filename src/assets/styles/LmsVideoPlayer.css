@@ -8,7 +8,7 @@
 .lms-video-player-container {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 393px;
+  grid-template-columns: 7fr 3fr;
   height: calc(100% - 63px);
   overflow: hidden;
 }

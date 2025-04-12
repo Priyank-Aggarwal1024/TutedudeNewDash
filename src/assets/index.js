@@ -13,6 +13,12 @@ import StatusSvg from "./svg/StatusSvg";
 import DownloadSvg from "./svg/DownloadSvg";
 import FeedbackIconSvg from "./svg/FeedbackIconSvg";
 import RightArrowSvg from "./svg/RightArrowSvg";
+import shareDesign from "./images/share-design.png";
+import shareLogo from "./images/share-logo.svg";
+import pythonIcon from "./images/python-icon.svg";
+import loginLogo from "./images/LoginLogo.png";
+import BackwardSvg from "./svg/BackwardSvg";
+import ForwardSvg from "./svg/ForwardSvg";
 export {
   logo,
   DownSvg,
@@ -29,4 +35,10 @@ export {
   DownloadSvg,
   FeedbackIconSvg,
   RightArrowSvg,
+  shareDesign,
+  shareLogo,
+  pythonIcon,
+  loginLogo,
+  BackwardSvg,
+  ForwardSvg,
 };

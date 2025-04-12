@@ -1,0 +1,107 @@
+.delete-progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.delete-progress-content {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  max-width: 500px;
+  overflow-y: auto;
+  .new-module-cont {
+    width: 100%;
+  }
+  margin: 20px 0;
+}
+.delete-progress-main-cont {
+  padding: 10px;
+}
+.delete-progress-title {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #f4e9f4;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.delete-progress-main-cont-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  gap: 4px;
+}
+.delete-progress-main-cont-inner-item {
+  width: 100%;
+}
+.delete-progress-main-cont-inner-item-title {
+  width: 100%;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #f4e9f4;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000b7;
+  cursor: pointer;
+}
+.delete-progress-main-cont-inner-item-buttons {
+  position: sticky;
+  bottom: -10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
+  background: #fff;
+  padding: 10px;
+}
+
+.delete-progress-main-cont-inner-item-cbutton {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #800080;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.delete-progress-main-cont-inner-item-dbutton {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #800080;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .delete-progress-main-cont-inner-item-title {
+    font-size: 14px;
+  }
+  .delete-progress-content {
+    padding: 10px 0;
+  }
+  .delete-progress-title {
+    font-size: 16px;
+  }
+}

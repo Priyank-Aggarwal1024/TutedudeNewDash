@@ -6,10 +6,15 @@ const initialState = {
   currentWatching: {
     section_no: 1,
     lecture_no: 1,
-    section_name: "Introducing Microsoft Power BI",
-    lecture_name: "Power BI Introduction",
+    section_name: "It's super easy to get Started",
+    lecture_name: "Tableau Introduction",
     lecture_progress: 50,
+    lastTime: 0,
+    courseId: "",
+    lecture_id: "",
   },
+  userProgress: {},
+  deleteProgress: [],
 };
 
 const courseSlice = createSlice({
@@ -25,9 +30,20 @@ const courseSlice = createSlice({
     setCurrentWatching: (state, action) => {
       state.currentWatching = action.payload;
     },
+    setUserProgress: (state, action) => {
+      state.userProgress = action.payload;
+    },
+    setDeleteProgress: (state, action) => {
+      state.deleteProgress = action.payload;
+    },
   },
 });
 
-export const { setProgress, setCourse, setCurrentWatching } =
-  courseSlice.actions;
+export const {
+  setProgress,
+  setCourse,
+  setCurrentWatching,
+  setUserProgress,
+  setDeleteProgress,
+} = courseSlice.actions;
 export default courseSlice.reducer;

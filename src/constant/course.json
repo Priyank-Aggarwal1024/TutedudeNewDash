@@ -1,1968 +1,1040 @@
 {
-    "_id": {
-        "$oid": "66aa06c50c3892cd127397e6"
-    },
-    "course_name": "Power BI Course",
-    "slug": "powerbi",
-    "category": "technical",
+    "_id": "67d8296eb0d8e04dfdb79175",
+    "course_name": "Tableau",
+    "slug": "tableau",
+    "category": "it",
     "sections": [
         {
+            "_id": "67f8e3b6ceac4c1618be8ece",
             "section_no": 1,
-            "section_name": "Introducing Microsoft Power BI",
+            "section_name": "It's super easy to get Started",
             "section_lectures": [
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ecf",
                     "lecture_no": 1,
-                    "lecture_name": "Power BI Introduction",
-                    "lecture_file_path": "Power BI Introduction",
+                    "lecture_name": "Tableau Introduction",
+                    "lecture_file_path": "Tableau Introduction",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Power BI Introduction"
+                        "folder_name": "Tableau",
+                        "file_name": "Tableau Introduction",
+                        "_id": "67f8e3b6ceac4c1618be8ed0"
                     },
                     "resource": [
-                        "https://drive.google.com/drive/folders/1q8imTkacqWQDcgWuExgezbFREWydFo8D?usp=drive_link"
+                        "https://drive.google.com/drive/folders/18dTkrLhppjqyVXSEzhr2A-CCIL6fp4jy?usp=sharing"
                     ]
                 },
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ed1",
                     "lecture_no": 2,
-                    "lecture_name": "Power BI Installation",
-                    "lecture_file_path": "Power BI Installation",
+                    "lecture_name": "Installation",
+                    "lecture_file_path": "Installation",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Power BI Installation"
+                        "folder_name": "Tableau",
+                        "file_name": "Installation",
+                        "_id": "67f8e3b6ceac4c1618be8ed2"
                     }
                 },
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ed3",
                     "lecture_no": 3,
-                    "lecture_name": "Adjusting Settings",
-                    "lecture_file_path": "Adjusting Settings",
+                    "lecture_name": "Excercise- Get Excited!",
+                    "lecture_file_path": "Excercise- Get Excited!",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Adjusting Settings"
-                    }
-                },
-                {
-                    "lecture_no": 4,
-                    "lecture_name": "Workflow of Power BI",
-                    "lecture_file_path": "Workflow of Power BI",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Workflow of Power BI"
-                    }
-                },
-                {
-                    "lecture_no": 5,
-                    "lecture_name": "Power BI Helpful Resources",
-                    "lecture_file_path": "Power BI Helpful Resources",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Power BI Helpful Resources"
+                        "folder_name": "Tableau",
+                        "file_name": "Excercise- Get Excited!",
+                        "_id": "67f8e3b6ceac4c1618be8ed4"
                     }
                 }
             ]
         },
         {
+            "_id": "67f8e3b6ceac4c1618be8ed5",
             "section_no": 2,
-            "section_name": "Connecting and Shaping Data",
+            "section_name": "Tableau Basics: Your First Bar chart",
             "section_lectures": [
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ed6",
+                    "lecture_no": 4,
+                    "lecture_name": "The Business Challenge - Who Gets the Annual Reward",
+                    "lecture_file_path": "The Business Challenge - Who Gets the Annual Reward",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "The Business Challenge - Who Gets the Annual Reward",
+                        "_id": "67f8e3b6ceac4c1618be8ed7"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8ed8",
+                    "lecture_no": 5,
+                    "lecture_name": "Connecting Tableau to a Data File - CSV File",
+                    "lecture_file_path": "Connecting Tableau to a Data File - CSV File",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Connecting Tableau to a Data File - CSV File",
+                        "_id": "67f8e3b6ceac4c1618be8ed9"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8eda",
                     "lecture_no": 6,
-                    "lecture_name": "Front End vs back End",
-                    "lecture_file_path": "Front End vs back End",
+                    "lecture_name": "Navigating Tableau",
+                    "lecture_file_path": "Navigating Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Front End vs back End"
+                        "folder_name": "Tableau",
+                        "file_name": "Navigating Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8edb"
                     }
                 },
                 {
+                    "_id": "67f8e3b6ceac4c1618be8edc",
                     "lecture_no": 7,
-                    "lecture_name": "Types of Data Connectors",
-                    "lecture_file_path": "Types of Data Connectors",
+                    "lecture_name": "Creating Calculated Fields",
+                    "lecture_file_path": "Creating Calculated Fields",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Types of Data Connectors"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating Calculated Fields",
+                        "_id": "67f8e3b6ceac4c1618be8edd"
                     }
                 },
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ede",
                     "lecture_no": 8,
-                    "lecture_name": "POWER QUERY EDITOR",
-                    "lecture_file_path": "POWER QUERY EDITOR",
+                    "lecture_name": "Adding Colors",
+                    "lecture_file_path": "Adding Colors",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "POWER QUERY EDITOR"
+                        "folder_name": "Tableau",
+                        "file_name": "Adding Colors",
+                        "_id": "67f8e3b6ceac4c1618be8edf"
                     }
                 },
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ee0",
                     "lecture_no": 9,
-                    "lecture_name": "Basic Data Transformations",
-                    "lecture_file_path": "Basic Data Transformations",
+                    "lecture_name": "Adding Labels and Formatting",
+                    "lecture_file_path": "Adding Labels and Formatting",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Basic Data Transformations"
+                        "folder_name": "Tableau",
+                        "file_name": "Adding Labels and Formatting",
+                        "_id": "67f8e3b6ceac4c1618be8ee1"
                     }
                 },
                 {
+                    "_id": "67f8e3b6ceac4c1618be8ee2",
                     "lecture_no": 10,
-                    "lecture_name": "Assignment-1-Table Transformation Assignment",
-                    "lecture_file_path": "Assignment-1-Table Transformation Assignment",
+                    "lecture_name": "Exporting Your Worksheet",
+                    "lecture_file_path": "Exporting Your Worksheet",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Table Transformation Assignment"
-                    }
-                },
-                {
-                    "lecture_no": 11,
-                    "lecture_name": "Assignment-1-Table Transformation- Assignment Solution",
-                    "lecture_file_path": "Assignment-1-Table Transformation- Assignment Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Table Transformation- Assignment Solution"
-                    }
-                },
-                {
-                    "lecture_no": 12,
-                    "lecture_name": "Storage and Connection   Mode",
-                    "lecture_file_path": "Storage and Connection   Mode",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Storage and Connection   Mode"
-                    }
-                },
-                {
-                    "lecture_no": 13,
-                    "lecture_name": "Connecting To Database",
-                    "lecture_file_path": "Connecting To Database",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Connecting To Database"
-                    }
-                },
-                {
-                    "lecture_no": 14,
-                    "lecture_name": "Website Data Gathering",
-                    "lecture_file_path": "Website Data Gathering",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Website Data Gathering"
-                    }
-                },
-                {
-                    "lecture_no": 15,
-                    "lecture_name": "Data profiling and QA Tools",
-                    "lecture_file_path": "Data profiling and QA Tools",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Data profiling and QA Tools"
-                    }
-                },
-                {
-                    "lecture_no": 16,
-                    "lecture_name": "Text Tools Transformation",
-                    "lecture_file_path": "Text Tools Transformation",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Text Tools Transformation"
-                    }
-                },
-                {
-                    "lecture_no": 17,
-                    "lecture_name": "Assignment-2-Text Tools",
-                    "lecture_file_path": "Assignment-2-Text Tools",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Text Tools"
-                    }
-                },
-                {
-                    "lecture_no": 18,
-                    "lecture_name": "Assignment-2-Text-Tools-Solution",
-                    "lecture_file_path": "Assignment-2-Text-Tools-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Text-Tools-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 19,
-                    "lecture_name": "Numeric Tools",
-                    "lecture_file_path": "Numeric Tools",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Numeric Tools"
-                    }
-                },
-                {
-                    "lecture_no": 20,
-                    "lecture_name": "Assignment-3-Numeric Tools",
-                    "lecture_file_path": "Assignment-3-Numeric Tools",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Numeric Tools"
-                    }
-                },
-                {
-                    "lecture_no": 21,
-                    "lecture_name": "Assignment-3-Numeric Tools-Solution",
-                    "lecture_file_path": "Assignment-3-Numeric Tools-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Numeric Tools-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 22,
-                    "lecture_name": "DATE AND TIME TOOLS",
-                    "lecture_file_path": "DATE AND TIME TOOLS",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "DATE AND TIME TOOLS"
-                    }
-                },
-                {
-                    "lecture_no": 23,
-                    "lecture_name": "Change Type with Locale",
-                    "lecture_file_path": "Change Type with Locale",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Change Type with Locale"
-                    }
-                },
-                {
-                    "lecture_no": 24,
-                    "lecture_name": "Rolling Calendar",
-                    "lecture_file_path": "Rolling Calendar",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Rolling Calendar"
-                    }
-                },
-                {
-                    "lecture_no": 25,
-                    "lecture_name": "Assignment-4-Calendar tables Assignment",
-                    "lecture_file_path": "Assignment-4-Calendar tables Assignment",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-4-Calendar tables Assignment"
-                    }
-                },
-                {
-                    "lecture_no": 26,
-                    "lecture_name": "Assignment-4-Calender Tables-Solutions",
-                    "lecture_file_path": "Assignment-4-Calender Tables-Solutions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-4-Calender Tables-Solutions"
-                    }
-                },
-                {
-                    "lecture_no": 27,
-                    "lecture_name": "Index and Conditional Column",
-                    "lecture_file_path": "Index and Conditional Column",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Index and Conditional Column"
-                    }
-                },
-                {
-                    "lecture_no": 28,
-                    "lecture_name": "Grouping and Aggregating",
-                    "lecture_file_path": "Grouping and Aggregating",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Grouping and Aggregating"
-                    }
-                },
-                {
-                    "lecture_no": 29,
-                    "lecture_name": "Pivoting and Unpivoting",
-                    "lecture_file_path": "Pivoting and Unpivoting",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Pivoting and Unpivoting"
-                    }
-                },
-                {
-                    "lecture_no": 30,
-                    "lecture_name": "Merging Queries",
-                    "lecture_file_path": "Merging Queries",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Merging Queries"
-                    }
-                },
-                {
-                    "lecture_no": 31,
-                    "lecture_name": "Appending Queries",
-                    "lecture_file_path": "Appending Queries",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Appending Queries"
-                    }
-                },
-                {
-                    "lecture_no": 32,
-                    "lecture_name": "Data Gathering From Folder",
-                    "lecture_file_path": "Data Gathering From Folder",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Data Gathering From Folder"
-                    }
-                },
-                {
-                    "lecture_no": 33,
-                    "lecture_name": "Data Source Settings",
-                    "lecture_file_path": "Data Source Settings",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Data Source Settings"
-                    }
-                },
-                {
-                    "lecture_no": 34,
-                    "lecture_name": "Refresh Button",
-                    "lecture_file_path": "Refresh Button",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Refresh Button"
-                    }
-                },
-                {
-                    "lecture_no": 35,
-                    "lecture_name": "importing Excel Models",
-                    "lecture_file_path": "importing Excel Models",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "importing Excel Models"
+                        "folder_name": "Tableau",
+                        "file_name": "Exporting Your Worksheet",
+                        "_id": "67f8e3b6ceac4c1618be8ee3"
                     }
                 }
             ]
         },
         {
-            "assignment_no": 1,
-            "assignment_name": "Table Transformation",
-            "assignment_links": "https://drive.google.com/file/d/1GTk2t8sihsu3XzG7LHru1CGW077Qo8vG/view?usp=sharing",
-            "assignment_id": "task1"
-        },
-        {
-            "assignment_no": 2,
-            "assignment_name": "Text Tools",
-            "assignment_links": "https://drive.google.com/file/d/1K5FQDk8fROQ9cc6EJp9Sbr-Dz7ryQZjy/view?usp=sharing",
-            "assignment_id": "task2"
-        },
-        {
-            "assignment_no": 3,
-            "assignment_name": "Numeric Tools",
-            "assignment_links": "https://drive.google.com/file/d/1hmZweySIYTW_4xZul5phBXx99VMqVz0y/view?usp=sharing",
-            "assignment_id": "task3"
-        },
-        {
-            "assignment_no": 4,
-            "assignment_name": "Calendar Tables ",
-            "assignment_links": "https://drive.google.com/file/d/12tra4R62gBV8A7UX1g0kHSyOBRgEgLXD/view?usp=sharing",
-            "assignment_id": "task4"
-        },
-        {
+            "_id": "67f8e3b6ceac4c1618be8ee4",
             "section_no": 3,
-            "section_name": "Creating a Data Model",
+            "section_name": "Time series, Aggregation, and Filters",
             "section_lectures": [
                 {
-                    "lecture_no": 36,
-                    "lecture_name": "Creating A Data Model Introduction",
-                    "lecture_file_path": "Creating A Data Model Introduction",
+                    "_id": "67f8e3b6ceac4c1618be8ee5",
+                    "lecture_no": 11,
+                    "lecture_name": "Section Intro",
+                    "lecture_file_path": "Section Intro",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Creating A Data Model Introduction"
+                        "folder_name": "Tableau",
+                        "file_name": "Section Intro",
+                        "_id": "67f8e3b6ceac4c1618be8ee6"
                     }
                 },
                 {
-                    "lecture_no": 37,
-                    "lecture_name": "What is a Data Model",
-                    "lecture_file_path": "What is a Data Model",
+                    "_id": "67f8e3b6ceac4c1618be8ee7",
+                    "lecture_no": 12,
+                    "lecture_name": "Working with Data Extracts in Tableau",
+                    "lecture_file_path": "Working with Data Extracts in Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "What is a Data Model"
+                        "folder_name": "Tableau",
+                        "file_name": "Working with Data Extracts in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8ee8"
                     }
                 },
                 {
-                    "lecture_no": 38,
-                    "lecture_name": "Database Normalization",
-                    "lecture_file_path": "Database Normalization",
+                    "_id": "67f8e3b6ceac4c1618be8ee9",
+                    "lecture_no": 13,
+                    "lecture_name": "Working with Time Series",
+                    "lecture_file_path": "Working with Time Series",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Database Normalization"
+                        "folder_name": "Tableau",
+                        "file_name": "Working with Time Series",
+                        "_id": "67f8e3b6ceac4c1618be8eea"
                     }
                 },
                 {
-                    "lecture_no": 39,
-                    "lecture_name": "Fact And Dimension Tables",
-                    "lecture_file_path": "Fact And Dimension Tables",
+                    "_id": "67f8e3b6ceac4c1618be8eeb",
+                    "lecture_no": 14,
+                    "lecture_name": "Understanding Aggregation, Granularity and Level Of Detail",
+                    "lecture_file_path": "Understanding Aggregation, Granularity and Level Of Detail",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Fact And Dimension Tables"
+                        "folder_name": "Tableau",
+                        "file_name": "Understanding Aggregation, Granularity and Level Of Detail",
+                        "_id": "67f8e3b6ceac4c1618be8eec"
                     }
                 },
                 {
-                    "lecture_no": 40,
-                    "lecture_name": "PRIMARY AND FOREIGN KEYS",
-                    "lecture_file_path": "PRIMARY AND FOREIGN KEYS",
+                    "_id": "67f8e3b6ceac4c1618be8eed",
+                    "lecture_no": 15,
+                    "lecture_name": "Creating an Area Chart & Learning About Highlighting",
+                    "lecture_file_path": "Creating an Area Chart & Learning About Highlighting",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "PRIMARY AND FOREIGN KEYS"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating an Area Chart & Learning About Highlighting",
+                        "_id": "67f8e3b6ceac4c1618be8eee"
                     }
                 },
                 {
-                    "lecture_no": 41,
-                    "lecture_name": "Merged Table vs Relationships",
-                    "lecture_file_path": "Merged Table vs Relationships",
+                    "_id": "67f8e3b6ceac4c1618be8eef",
+                    "lecture_no": 16,
+                    "lecture_name": "Adding Filters and Quick Filters",
+                    "lecture_file_path": "Adding Filters and Quick Filters",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Merged Table vs Relationships"
-                    }
-                },
-                {
-                    "lecture_no": 42,
-                    "lecture_name": "Creating Table Relationship",
-                    "lecture_file_path": "Creating Table Relationship",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Creating Table Relationship"
-                    }
-                },
-                {
-                    "lecture_no": 43,
-                    "lecture_name": "Managing and Editing Relationship",
-                    "lecture_file_path": "Managing and Editing Relationship",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Managing and Editing Relationship"
-                    }
-                },
-                {
-                    "lecture_no": 44,
-                    "lecture_name": "Star and SnowFlake Schema",
-                    "lecture_file_path": "Star and SnowFlake Schema",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Star and SnowFlake Schema"
-                    }
-                },
-                {
-                    "lecture_no": 45,
-                    "lecture_name": "Assignment-1-Table-Relationships",
-                    "lecture_file_path": "Assignment-1-Table-Relationships",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Table-Relationships"
-                    }
-                },
-                {
-                    "lecture_no": 46,
-                    "lecture_name": "Assignment-1-Table Relationships- Solution",
-                    "lecture_file_path": "Assignment-1-Table Relationships- Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Table Relationships- Solution"
-                    }
-                },
-                {
-                    "lecture_no": 47,
-                    "lecture_name": "Active and Inactive Relationship",
-                    "lecture_file_path": "Active and Inactive Relationship",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Active and Inactive Relationship"
-                    }
-                },
-                {
-                    "lecture_no": 48,
-                    "lecture_name": "Relationship Cardinality",
-                    "lecture_file_path": "Relationship Cardinality",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Relationship Cardinality"
-                    }
-                },
-                {
-                    "lecture_no": 49,
-                    "lecture_name": "Connectng Multiple Fact Tables",
-                    "lecture_file_path": "Connectng Multiple Fact Tables",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Connectng Multiple Fact Tables"
-                    }
-                },
-                {
-                    "lecture_no": 50,
-                    "lecture_name": "Filter Context and Filter Flow",
-                    "lecture_file_path": "Filter Context and Filter Flow",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Filter Context and Filter Flow"
-                    }
-                },
-                {
-                    "lecture_no": 51,
-                    "lecture_name": "BiDirectional Filter and Ambiguity",
-                    "lecture_file_path": "BiDirectional Filter and Ambiguity",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "BiDirectional Filter and Ambiguity"
-                    }
-                },
-                {
-                    "lecture_no": 52,
-                    "lecture_name": "Hide in Report View",
-                    "lecture_file_path": "Hide in Report View",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Hide in Report View"
-                    }
-                },
-                {
-                    "lecture_no": 53,
-                    "lecture_name": "Assignment-2-Filter Flow",
-                    "lecture_file_path": "Assignment-2-Filter Flow",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Filter Flow"
-                    }
-                },
-                {
-                    "lecture_no": 54,
-                    "lecture_name": "Assignment-2-Filter Flow-Solution",
-                    "lecture_file_path": "Assignment-2-Filter Flow-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Filter Flow-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 55,
-                    "lecture_name": "Model Layouts",
-                    "lecture_file_path": "Model Layouts",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Model Layouts"
-                    }
-                },
-                {
-                    "lecture_no": 56,
-                    "lecture_name": "Data Format and Category",
-                    "lecture_file_path": "Data Format and Category",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Data Format and Category"
-                    }
-                },
-                {
-                    "lecture_no": 57,
-                    "lecture_name": "Heirarchies",
-                    "lecture_file_path": "Heirarchies",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Heirarchies"
-                    }
-                },
-                {
-                    "lecture_no": 58,
-                    "lecture_name": "Assignment-3-Heirarchies",
-                    "lecture_file_path": "Assignment-3-Heirarchies",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Heirarchies"
-                    }
-                },
-                {
-                    "lecture_no": 59,
-                    "lecture_name": "Assignment-3-Heirarchies-Solution",
-                    "lecture_file_path": "Assignment-3-Heirarchies-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Heirarchies-Solution"
+                        "folder_name": "Tableau",
+                        "file_name": "Adding Filters and Quick Filters",
+                        "_id": "67f8e3b6ceac4c1618be8ef0"
                     }
                 }
             ]
         },
         {
-            "assignment_no": 5,
-            "assignment_name": "Table Relationships",
-            "assignment_links": "https://drive.google.com/file/d/1DPoKnhvnilmPDo2MsWeDO29cZFEx7dRI/view?usp=sharing",
-            "assignment_id": "task5"
-        },
-        {
-            "assignment_no": 6,
-            "assignment_name": "Filter Flow",
-            "assignment_links": "https://drive.google.com/file/d/1GttJflytJq-VP6SA_M8mDBluQTotmPGJ/view?usp=sharing",
-            "assignment_id": "task6"
-        },
-        {
-            "assignment_no": 7,
-            "assignment_name": "Heirarchies",
-            "assignment_links": "https://drive.google.com/file/d/13AuM-OcAK_dgzhKI-5mkgOWunV_pPLv6/view?usp=sharing",
-            "assignment_id": "task7"
-        },
-        {
+            "_id": "67f8e3b6ceac4c1618be8ef1",
             "section_no": 4,
-            "section_name": "Calculated Field with Dax",
+            "section_name": "Maps, Scatterplots, and Your First Dashboard",
             "section_lectures": [
                 {
-                    "lecture_no": 60,
-                    "lecture_name": "DAX Introduction",
-                    "lecture_file_path": "DAX Introduction",
+                    "_id": "67f8e3b6ceac4c1618be8ef2",
+                    "lecture_no": 17,
+                    "lecture_name": "Section Intro 4",
+                    "lecture_file_path": "Section Intro 4",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "DAX Introduction"
+                        "folder_name": "Tableau",
+                        "file_name": "Section Intro 4",
+                        "_id": "67f8e3b6ceac4c1618be8ef3"
                     }
                 },
                 {
-                    "lecture_no": 61,
-                    "lecture_name": "Dax Vs M Code",
-                    "lecture_file_path": "Dax Vs M Code",
+                    "_id": "67f8e3b6ceac4c1618be8ef4",
+                    "lecture_no": 18,
+                    "lecture_name": "Relationship vs Joins",
+                    "lecture_file_path": "Relationship vs Joins",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Dax Vs M Code"
+                        "folder_name": "Tableau",
+                        "file_name": "Relationship vs Joins",
+                        "_id": "67f8e3b6ceac4c1618be8ef5"
                     }
                 },
                 {
-                    "lecture_no": 62,
-                    "lecture_name": "Calculated Columns",
-                    "lecture_file_path": "Calculated Columns",
+                    "_id": "67f8e3b6ceac4c1618be8ef6",
+                    "lecture_no": 19,
+                    "lecture_name": "Joining Data in Tableau",
+                    "lecture_file_path": "Joining Data in Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Calculated Columns"
+                        "folder_name": "Tableau",
+                        "file_name": "Joining Data in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8ef7"
                     }
                 },
                 {
-                    "lecture_no": 63,
-                    "lecture_name": "Dax Measures",
-                    "lecture_file_path": "Dax Measures",
+                    "_id": "67f8e3b6ceac4c1618be8ef8",
+                    "lecture_no": 20,
+                    "lecture_name": "Creating a Map, Working with Hierarchies",
+                    "lecture_file_path": "Creating a Map, Working with Hierarchies",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Dax Measures"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating a Map, Working with Hierarchies",
+                        "_id": "67f8e3b6ceac4c1618be8ef9"
                     }
                 },
                 {
-                    "lecture_no": 64,
-                    "lecture_name": "Implicit vs Explicit Measures",
-                    "lecture_file_path": "Implicit vs Explicit Measures",
+                    "_id": "67f8e3b6ceac4c1618be8efa",
+                    "lecture_no": 21,
+                    "lecture_name": "Creating a Scatterplot , Applying Filters to Multiple Worksheets",
+                    "lecture_file_path": "Creating a Scatterplot , Applying Filters to Multiple Worksheets",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Implicit vs Explicit Measures"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating a Scatterplot , Applying Filters to Multiple Worksheets",
+                        "_id": "67f8e3b6ceac4c1618be8efb"
                     }
                 },
                 {
-                    "lecture_no": 65,
-                    "lecture_name": "Quick Measures",
-                    "lecture_file_path": "Quick Measures",
+                    "_id": "67f8e3b6ceac4c1618be8efc",
+                    "lecture_no": 22,
+                    "lecture_name": "Let's Create Our First Dashboard!",
+                    "lecture_file_path": "Let's Create Our First Dashboard!",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Quick Measures"
+                        "folder_name": "Tableau",
+                        "file_name": "Let's Create Our First Dashboard!",
+                        "_id": "67f8e3b6ceac4c1618be8efd"
                     }
                 },
                 {
-                    "lecture_no": 66,
-                    "lecture_name": "Measure Tables",
-                    "lecture_file_path": "Measure Tables",
+                    "_id": "67f8e3b6ceac4c1618be8efe",
+                    "lecture_no": 23,
+                    "lecture_name": "Adding an Interactive Action - Filter",
+                    "lecture_file_path": "Adding an Interactive Action - Filter",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Measure Tables"
+                        "folder_name": "Tableau",
+                        "file_name": "Adding an Interactive Action - Filter",
+                        "_id": "67f8e3b6ceac4c1618be8eff"
                     }
                 },
                 {
-                    "lecture_no": 67,
-                    "lecture_name": "Filter Context",
-                    "lecture_file_path": "Filter Context",
+                    "_id": "67f8e3b6ceac4c1618be8f00",
+                    "lecture_no": 24,
+                    "lecture_name": "Adding an Interactive Action - Highlight",
+                    "lecture_file_path": "Adding an Interactive Action - Highlight",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Filter Context"
-                    }
-                },
-                {
-                    "lecture_no": 68,
-                    "lecture_name": "Dax Syntax and Operators",
-                    "lecture_file_path": "Dax Syntax and Operators",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Dax Syntax and Operators"
-                    }
-                },
-                {
-                    "lecture_no": 69,
-                    "lecture_name": "Common Function Category",
-                    "lecture_file_path": "Common Function Category",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Common Function Category"
-                    }
-                },
-                {
-                    "lecture_no": 70,
-                    "lecture_name": "Basic Math and Stats Function",
-                    "lecture_file_path": "Basic Math and Stats Function",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Basic Math and Stats Function"
-                    }
-                },
-                {
-                    "lecture_no": 71,
-                    "lecture_name": "Counting functions",
-                    "lecture_file_path": "Counting functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Counting functions"
-                    }
-                },
-                {
-                    "lecture_no": 72,
-                    "lecture_name": "Assignment-1-Maths and Stats",
-                    "lecture_file_path": "Assignment-1-Maths and Stats",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Maths and Stats"
-                    }
-                },
-                {
-                    "lecture_no": 73,
-                    "lecture_name": "Assignment-1-Maths and Stats-Solutions",
-                    "lecture_file_path": "Assignment-1-Maths and Stats-Solutions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Maths and Stats-Solutions"
-                    }
-                },
-                {
-                    "lecture_no": 74,
-                    "lecture_name": "Conditional and Logical Functions",
-                    "lecture_file_path": "Conditional and Logical Functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Conditional and Logical Functions"
-                    }
-                },
-                {
-                    "lecture_no": 75,
-                    "lecture_name": "Switch Function",
-                    "lecture_file_path": "Switch Function",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Switch Function"
-                    }
-                },
-                {
-                    "lecture_no": 76,
-                    "lecture_name": "Assignment-2-Logical functions",
-                    "lecture_file_path": "Assignment-2-Logical functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Logical functions"
-                    }
-                },
-                {
-                    "lecture_no": 77,
-                    "lecture_name": "Assignment-2-Logical functions-Solution",
-                    "lecture_file_path": "Assignment-2-Logical functions-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Logical functions-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 78,
-                    "lecture_name": "Text Functions",
-                    "lecture_file_path": "Text Functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Text Functions"
-                    }
-                },
-                {
-                    "lecture_no": 79,
-                    "lecture_name": "Assignment-3-Text functions",
-                    "lecture_file_path": "Assignment-3-Text functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Text functions"
-                    }
-                },
-                {
-                    "lecture_no": 80,
-                    "lecture_name": "Assignment-3-Text functions-Solution",
-                    "lecture_file_path": "Assignment-3-Text functions-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Text functions-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 81,
-                    "lecture_name": "Date and Time Functions",
-                    "lecture_file_path": "Date and Time Functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Date and Time Functions"
-                    }
-                },
-                {
-                    "lecture_no": 82,
-                    "lecture_name": "Assignment-4-Date and Time",
-                    "lecture_file_path": "Assignment-4-Date and Time",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-4-Date and Time"
-                    }
-                },
-                {
-                    "lecture_no": 83,
-                    "lecture_name": "Assignment-4-Date and Time-Solutions",
-                    "lecture_file_path": "Assignment-4-Date and Time-Solutions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-4-Date and Time-Solutions"
-                    }
-                },
-                {
-                    "lecture_no": 84,
-                    "lecture_name": "Joining Data with Related",
-                    "lecture_file_path": "Joining Data with Related",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Joining Data with Related"
-                    }
-                },
-                {
-                    "lecture_no": 85,
-                    "lecture_name": "Calculate Function",
-                    "lecture_file_path": "Calculate Function",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Calculate Function"
-                    }
-                },
-                {
-                    "lecture_no": 86,
-                    "lecture_name": "DAX Measure Totals",
-                    "lecture_file_path": "DAX Measure Totals",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "DAX Measure Totals"
-                    }
-                },
-                {
-                    "lecture_no": 87,
-                    "lecture_name": "Assignment-5-Calculate Function",
-                    "lecture_file_path": "Assignment-5-Calculate Function",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-5-Calculate Function"
-                    }
-                },
-                {
-                    "lecture_no": 88,
-                    "lecture_name": "Assignment-5-Calculate Function-Solutions",
-                    "lecture_file_path": "Assignment-5-Calculate Function-Solutions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-5-Calculate Function-Solutions"
-                    }
-                },
-                {
-                    "lecture_no": 89,
-                    "lecture_name": "ALL Function",
-                    "lecture_file_path": "ALL Function",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "ALL Function"
-                    }
-                },
-                {
-                    "lecture_no": 90,
-                    "lecture_name": "Assignment-6-Calculate and ALL",
-                    "lecture_file_path": "Assignment-6-Calculate and ALL",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-6-Calculate and ALL"
-                    }
-                },
-                {
-                    "lecture_no": 91,
-                    "lecture_name": "Assignment-6-Calculate and ALL-Solution",
-                    "lecture_file_path": "Assignment-6-Calculate and ALL-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-6-Calculate and ALL-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 92,
-                    "lecture_name": "Filter Functions",
-                    "lecture_file_path": "Filter Functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Filter Functions"
-                    }
-                },
-                {
-                    "lecture_no": 93,
-                    "lecture_name": "Iterator Functions",
-                    "lecture_file_path": "Iterator Functions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Iterator Functions"
-                    }
-                },
-                {
-                    "lecture_no": 94,
-                    "lecture_name": "Assignment-7-Iterators",
-                    "lecture_file_path": "Assignment-7-Iterators",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-7-Iterators"
-                    }
-                },
-                {
-                    "lecture_no": 95,
-                    "lecture_name": "Assignment-7-Iterators-Solution",
-                    "lecture_file_path": "Assignment-7-Iterators-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-7-Iterators-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 96,
-                    "lecture_name": "Time Intelligence Patterns",
-                    "lecture_file_path": "Time Intelligence Patterns",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Time Intelligence Patterns"
-                    }
-                },
-                {
-                    "lecture_no": 97,
-                    "lecture_name": "Assignment-8-Time Intelligence",
-                    "lecture_file_path": "Assignment-8-Time Intelligence",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-8-Time Intelligence"
-                    }
-                },
-                {
-                    "lecture_no": 98,
-                    "lecture_name": "Assignment-8-Time Intelligence-Solutions",
-                    "lecture_file_path": "Assignment-8-Time Intelligence-Solutions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-8-Time Intelligence-Solutions"
+                        "folder_name": "Tableau",
+                        "file_name": "Adding an Interactive Action - Highlight",
+                        "_id": "67f8e3b6ceac4c1618be8f01"
                     }
                 }
             ]
         },
         {
-            "assignment_no": 8,
-            "assignment_name": "Maths and Stats",
-            "assignment_links": "https://drive.google.com/file/d/1hG4C3rbfRIU18dRHVtzn7CIcXA3oT_I7/view?usp=sharing",
-            "assignment_id": "task8"
-        },
-        {
-            "assignment_no": 9,
-            "assignment_name": "Logical functions",
-            "assignment_links": "https://drive.google.com/file/d/1L-3lia5Q5NmKA5_ogxH7owPSso79gEx0/view?usp=sharing",
-            "assignment_id": "task9"
-        },
-        {
-            "assignment_no": 10,
-            "assignment_name": "Text functions",
-            "assignment_links": "https://drive.google.com/file/d/15ltYpXiunCv6Lt8TRT7Pc_VhiFiRyeQw/view?usp=sharing",
-            "assignment_id": "task10"
-        },
-        {
-            "assignment_no": 11,
-            "assignment_name": "Date and Time",
-            "assignment_links": "https://drive.google.com/file/d/1NNaQYFBWS7fyFHXlyaekblPktQlSFOvJ/view?usp=sharing",
-            "assignment_id": "task11"
-        },
-        {
-            "assignment_no": 12,
-            "assignment_name": "Calculate Function",
-            "assignment_links": "https://drive.google.com/file/d/16sTzXF08g3EUE33Lg5-KeKpeWX3RJ0mm/view?usp=sharing",
-            "assignment_id": "task12"
-        },
-        {
-            "assignment_no": 13,
-            "assignment_name": "Calculate and ALL",
-            "assignment_links": "https://drive.google.com/file/d/1ZskpH8OgiOA4xwrs9wKylNlWWRARH9kI/view?usp=sharing",
-            "assignment_id": "task13"
-        },
-        {
-            "assignment_no": 14,
-            "assignment_name": "Iterators",
-            "assignment_links": "https://drive.google.com/file/d/1_CSW0ZExEo9tfX5vSpUwIzLEwYob3xGG/view?usp=sharing",
-            "assignment_id": "task14"
-        },
-        {
-            "assignment_no": 15,
-            "assignment_name": "Time Intelligence",
-            "assignment_links": "https://drive.google.com/file/d/1s4XLZt6oVBRgmbsp12yrSJgm5ri9kmDA/view?usp=sharing",
-            "assignment_id": "task15"
-        },
-        {
+            "_id": "67f8e3b6ceac4c1618be8f02",
             "section_no": 5,
-            "section_name": "Visualizing Dashboard",
+            "section_name": "Joining, Blending and Relationships; PLUS: Dual Axis Charts",
             "section_lectures": [
                 {
-                    "lecture_no": 99,
-                    "lecture_name": "Dashboard Intro and three key questions",
-                    "lecture_file_path": "Dashboard Intro and three key questions",
+                    "_id": "67f8e3b6ceac4c1618be8f03",
+                    "lecture_no": 25,
+                    "lecture_name": "Section Intro 5",
+                    "lecture_file_path": "Section Intro 5",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Dashboard Intro and three key questions"
+                        "folder_name": "Tableau",
+                        "file_name": "Section Intro 5",
+                        "_id": "67f8e3b6ceac4c1618be8f04"
                     }
                 },
                 {
-                    "lecture_no": 100,
-                    "lecture_name": "Dashboard Sketch",
-                    "lecture_file_path": "Dashboard Sketch",
+                    "_id": "67f8e3b6ceac4c1618be8f05",
+                    "lecture_no": 26,
+                    "lecture_name": "Understanding how LEFT, RIGHT, INNER and OUTER Join Work",
+                    "lecture_file_path": "Understanding how LEFT, RIGHT, INNER and OUTER Join Work",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Dashboard Sketch"
+                        "folder_name": "Tableau",
+                        "file_name": "Understanding how LEFT, RIGHT, INNER and OUTER Join Work",
+                        "_id": "67f8e3b6ceac4c1618be8f06"
                     }
                 },
                 {
-                    "lecture_no": 101,
-                    "lecture_name": "Adding Report Pages and objects",
-                    "lecture_file_path": "Adding Report Pages and objects",
+                    "_id": "67f8e3b6ceac4c1618be8f07",
+                    "lecture_no": 27,
+                    "lecture_name": "Joins with Duplicate Values",
+                    "lecture_file_path": "Joins with Duplicate Values",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Adding Report Pages and objects"
+                        "folder_name": "Tableau",
+                        "file_name": "Joins with Duplicate Values",
+                        "_id": "67f8e3b6ceac4c1618be8f08"
                     }
                 },
                 {
-                    "lecture_no": 102,
-                    "lecture_name": "Naming and Grouping Objects",
-                    "lecture_file_path": "Naming and Grouping Objects",
+                    "_id": "67f8e3b6ceac4c1618be8f09",
+                    "lecture_no": 28,
+                    "lecture_name": "Joining on Multiple Fields",
+                    "lecture_file_path": "Joining on Multiple Fields",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Naming and Grouping Objects"
+                        "folder_name": "Tableau",
+                        "file_name": "Joining on Multiple Fields",
+                        "_id": "67f8e3b6ceac4c1618be8f0a"
                     }
                 },
                 {
-                    "lecture_no": 103,
-                    "lecture_name": "Cards and Multi Row Cards",
-                    "lecture_file_path": "Cards and Multi Row Cards",
+                    "_id": "67f8e3b6ceac4c1618be8f0b",
+                    "lecture_no": 29,
+                    "lecture_name": "The Showdown - Joining Data v.s. Blending Data in Tableau",
+                    "lecture_file_path": "The Showdown - Joining Data v.s. Blending Data in Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Cards and Multi Row Cards"
+                        "folder_name": "Tableau",
+                        "file_name": "The Showdown - Joining Data v.s. Blending Data in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8f0c"
                     }
                 },
                 {
-                    "lecture_no": 104,
-                    "lecture_name": "Assignment-1-Cards",
-                    "lecture_file_path": "Assignment-1-Cards",
+                    "_id": "67f8e3b6ceac4c1618be8f0d",
+                    "lecture_no": 30,
+                    "lecture_name": "Data Blending in Tableau",
+                    "lecture_file_path": "Data Blending in Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-Cards"
+                        "folder_name": "Tableau",
+                        "file_name": "Data Blending in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8f0e"
                     }
                 },
                 {
-                    "lecture_no": 105,
-                    "lecture_name": "Assignment-1-cards-solution",
-                    "lecture_file_path": "Assignment-1-cards-solution",
+                    "_id": "67f8e3b6ceac4c1618be8f0f",
+                    "lecture_no": 31,
+                    "lecture_name": "Dual Axis Chart",
+                    "lecture_file_path": "Dual Axis Chart",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-1-cards-solution"
+                        "folder_name": "Tableau",
+                        "file_name": "Dual Axis Chart",
+                        "_id": "67f8e3b6ceac4c1618be8f10"
                     }
                 },
                 {
-                    "lecture_no": 106,
-                    "lecture_name": "Line Charts",
-                    "lecture_file_path": "Line Charts",
+                    "_id": "67f8e3b6ceac4c1618be8f11",
+                    "lecture_no": 32,
+                    "lecture_name": "Creating Calculated Fields in a Blend (Advanced Topic)",
+                    "lecture_file_path": "Creating Calculated Fields in a Blend (Advanced Topic)",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Line Charts"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating Calculated Fields in a Blend (Advanced Topic)",
+                        "_id": "67f8e3b6ceac4c1618be8f12"
                     }
                 },
                 {
-                    "lecture_no": 107,
-                    "lecture_name": "Trend lines and Forecasts",
-                    "lecture_file_path": "Trend lines and Forecasts",
+                    "_id": "67f8e3b6ceac4c1618be8f13",
+                    "lecture_no": 33,
+                    "lecture_name": "New Challenge and dataset!",
+                    "lecture_file_path": "New Challenge and dataset!",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Trend lines and Forecasts"
+                        "folder_name": "Tableau",
+                        "file_name": "New Challenge and dataset!",
+                        "_id": "67f8e3b6ceac4c1618be8f14"
                     }
                 },
                 {
-                    "lecture_no": 108,
-                    "lecture_name": "Assignment-2-Line Charts",
-                    "lecture_file_path": "Assignment-2-Line Charts",
+                    "_id": "67f8e3b6ceac4c1618be8f15",
+                    "lecture_no": 34,
+                    "lecture_name": "The Data Model",
+                    "lecture_file_path": "The Data Model",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Line Charts"
+                        "folder_name": "Tableau",
+                        "file_name": "The Data Model",
+                        "_id": "67f8e3b6ceac4c1618be8f16"
                     }
                 },
                 {
-                    "lecture_no": 109,
-                    "lecture_name": "Assignment-2-Line Charts-Solution",
-                    "lecture_file_path": "Assignment-2-Line Charts-Solution",
+                    "_id": "67f8e3b6ceac4c1618be8f17",
+                    "lecture_no": 35,
+                    "lecture_name": "Working with Relationships in Tableau",
+                    "lecture_file_path": "Working with Relationships in Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-2-Line Charts-Solution"
+                        "folder_name": "Tableau",
+                        "file_name": "Working with Relationships in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8f18"
                     }
                 },
                 {
-                    "lecture_no": 110,
-                    "lecture_name": "KPI Visuals",
-                    "lecture_file_path": "KPI Visuals",
+                    "_id": "67f8e3b6ceac4c1618be8f19",
+                    "lecture_no": 36,
+                    "lecture_name": "Section Recap",
+                    "lecture_file_path": "Section Recap",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "KPI Visuals"
-                    }
-                },
-                {
-                    "lecture_no": 111,
-                    "lecture_name": "Bar and Donut Charts",
-                    "lecture_file_path": "Bar and Donut Charts",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Bar and Donut Charts"
-                    }
-                },
-                {
-                    "lecture_no": 112,
-                    "lecture_name": "Filtering Options",
-                    "lecture_file_path": "Filtering Options",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Filtering Options"
-                    }
-                },
-                {
-                    "lecture_no": 113,
-                    "lecture_name": "Assignment-3-Donuts and Filters",
-                    "lecture_file_path": "Assignment-3-Donuts and Filters",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Donuts and Filters"
-                    }
-                },
-                {
-                    "lecture_no": 114,
-                    "lecture_name": "Assignment-3-Donut Charts and Filters-Solution",
-                    "lecture_file_path": "Assignment-3-Donut Charts and Filters-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-3-Donut Charts and Filters-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 115,
-                    "lecture_name": "Table and Matrix Visuals",
-                    "lecture_file_path": "Table and Matrix Visuals",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Table and Matrix Visuals"
-                    }
-                },
-                {
-                    "lecture_no": 116,
-                    "lecture_name": "Conditional Formatting",
-                    "lecture_file_path": "Conditional Formatting",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Conditional Formatting"
-                    }
-                },
-                {
-                    "lecture_no": 117,
-                    "lecture_name": "TOP N Filtering",
-                    "lecture_file_path": "TOP N Filtering",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "TOP N Filtering"
-                    }
-                },
-                {
-                    "lecture_no": 118,
-                    "lecture_name": "Assignment-4-tables",
-                    "lecture_file_path": "Assignment-4-tables",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-4-tables"
-                    }
-                },
-                {
-                    "lecture_no": 119,
-                    "lecture_name": "Assignment-4-Tables-Solution",
-                    "lecture_file_path": "Assignment-4-Tables-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-4-Tables-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 120,
-                    "lecture_name": "Top N Text Cards",
-                    "lecture_file_path": "Top N Text Cards",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Top N Text Cards"
-                    }
-                },
-                {
-                    "lecture_no": 121,
-                    "lecture_name": "Assignment-5-Top N Text Cards",
-                    "lecture_file_path": "Assignment-5-Top N Text Cards",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-5-Top N Text Cards"
-                    }
-                },
-                {
-                    "lecture_no": 122,
-                    "lecture_name": "Assignment-5-Top N Text Cards-Solution",
-                    "lecture_file_path": "Assignment-5-Top N Text Cards-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-5-Top N Text Cards-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 123,
-                    "lecture_name": "Map Visuals",
-                    "lecture_file_path": "Map Visuals",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Map Visuals"
-                    }
-                },
-                {
-                    "lecture_no": 124,
-                    "lecture_name": "Slicers",
-                    "lecture_file_path": "Slicers",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Slicers"
-                    }
-                },
-                {
-                    "lecture_no": 125,
-                    "lecture_name": "Assignment-5-Slicers",
-                    "lecture_file_path": "Assignment-5-Slicers",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-5-Slicers"
-                    }
-                },
-                {
-                    "lecture_no": 126,
-                    "lecture_name": "Assignment-5-Slicers-Solution",
-                    "lecture_file_path": "Assignment-5-Slicers-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-5-Slicers-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 127,
-                    "lecture_name": "HasOne Values Function",
-                    "lecture_file_path": "HasOne Values Function",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "HasOne Values Function"
-                    }
-                },
-                {
-                    "lecture_no": 128,
-                    "lecture_name": "Gauge Chart",
-                    "lecture_file_path": "Gauge Chart",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Gauge Chart"
-                    }
-                },
-                {
-                    "lecture_no": 129,
-                    "lecture_name": "Advanced Conditional Formatting",
-                    "lecture_file_path": "Advanced Conditional Formatting",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Advanced Conditional Formatting"
-                    }
-                },
-                {
-                    "lecture_no": 130,
-                    "lecture_name": "Area Chart Visual",
-                    "lecture_file_path": "Area Chart Visual",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Area Chart Visual"
-                    }
-                },
-                {
-                    "lecture_no": 131,
-                    "lecture_name": "Drill Up and Drill Down Tools",
-                    "lecture_file_path": "Drill Up and Drill Down Tools",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Drill Up and Drill Down Tools"
-                    }
-                },
-                {
-                    "lecture_no": 132,
-                    "lecture_name": "Assignment-6-Drill up and Drill Down",
-                    "lecture_file_path": "Assignment-6-Drill up and Drill Down",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-6-Drill up and Drill Down"
-                    }
-                },
-                {
-                    "lecture_no": 133,
-                    "lecture_name": "Assignment-6-Drill Up and Drill Down-Solution",
-                    "lecture_file_path": "Assignment-6-Drill Up and Drill Down-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-6-Drill Up and Drill Down-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 134,
-                    "lecture_name": "Drill Through Filters",
-                    "lecture_file_path": "Drill Through Filters",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Drill Through Filters"
-                    }
-                },
-                {
-                    "lecture_no": 135,
-                    "lecture_name": "Report Interactions",
-                    "lecture_file_path": "Report Interactions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Report Interactions"
-                    }
-                },
-                {
-                    "lecture_no": 136,
-                    "lecture_name": "Assignment-7-Report Interactions",
-                    "lecture_file_path": "Assignment-7-Report Interactions",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-7-Report Interactions"
-                    }
-                },
-                {
-                    "lecture_no": 137,
-                    "lecture_name": "Assignment-7-Report Interactions-Solution",
-                    "lecture_file_path": "Assignment-7-Report Interactions-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-7-Report Interactions-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 138,
-                    "lecture_name": "Bookmarks",
-                    "lecture_file_path": "Bookmarks",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Bookmarks"
-                    }
-                },
-                {
-                    "lecture_no": 139,
-                    "lecture_name": "Assignment-8-Bookmarks",
-                    "lecture_file_path": "Assignment-8-Bookmarks",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-8-Bookmarks"
-                    }
-                },
-                {
-                    "lecture_no": 140,
-                    "lecture_name": "Assignment-8-Bookmarks-Solution",
-                    "lecture_file_path": "Assignment-8-Bookmarks-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-8-Bookmarks-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 141,
-                    "lecture_name": "Navigation Buttons",
-                    "lecture_file_path": "Navigation Buttons",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Navigation Buttons"
-                    }
-                },
-                {
-                    "lecture_no": 142,
-                    "lecture_name": "Slicer Panel",
-                    "lecture_file_path": "Slicer Panel",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Slicer Panel"
-                    }
-                },
-                {
-                    "lecture_no": 143,
-                    "lecture_name": "Parameters",
-                    "lecture_file_path": "Parameters",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Parameters"
-                    }
-                },
-                {
-                    "lecture_no": 144,
-                    "lecture_name": "Assignment-9-Field Parameters",
-                    "lecture_file_path": "Assignment-9-Field Parameters",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-9-Field Parameters"
-                    }
-                },
-                {
-                    "lecture_no": 145,
-                    "lecture_name": "Assignment-9-Field Parameters-Solution",
-                    "lecture_file_path": "Assignment-9-Field Parameters-Solution",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Assignment-9-Field Parameters-Solution"
-                    }
-                },
-                {
-                    "lecture_no": 146,
-                    "lecture_name": "Custom ToolTip",
-                    "lecture_file_path": "Custom ToolTip",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Custom ToolTip"
-                    }
-                },
-                {
-                    "lecture_no": 147,
-                    "lecture_name": "Power BI service Sign In",
-                    "lecture_file_path": "Power BI service Sign In",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Power BI service Sign In"
-                    }
-                },
-                {
-                    "lecture_no": 148,
-                    "lecture_name": "Importing Custom Visuals",
-                    "lecture_file_path": "Importing Custom Visuals",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Importing Custom Visuals"
-                    }
-                },
-                {
-                    "lecture_no": 149,
-                    "lecture_name": "Mobile Layout",
-                    "lecture_file_path": "Mobile Layout",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Mobile Layout"
-                    }
-                },
-                {
-                    "lecture_no": 150,
-                    "lecture_name": "Publishing Dashboard",
-                    "lecture_file_path": "Publishing Dashboard",
-                    "lecture_cloud_link": {
-                        "domain_url": "https://storage.googleapis.com/",
-                        "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Publishing Dashboard"
+                        "folder_name": "Tableau",
+                        "file_name": "Section Recap",
+                        "_id": "67f8e3b6ceac4c1618be8f1a"
                     }
                 }
             ]
         },
         {
-            "assignment_no": 16,
-            "assignment_name": "Cards",
-            "assignment_links": "https://drive.google.com/file/d/1E7SEarC83xeO20hBdpQv0w01k9y7jXCr/view?usp=sharing",
-            "assignment_id": "task16"
-        },
-        {
-            "assignment_no": 17,
-            "assignment_name": "Line Charts",
-            "assignment_links": "https://drive.google.com/file/d/144spBvk2ji2vQhiSHW4Ao84pA7TS-p3u/view?usp=sharing",
-            "assignment_id": "task17"
-        },
-        {
-            "assignment_no": 18,
-            "assignment_name": "Donuts and Filters",
-            "assignment_links": "https://drive.google.com/file/d/1ASEUJ3xIGnWEwnEIjMqekAtQjb-t1H2J/view?usp=sharing",
-            "assignment_id": "task18"
-        },
-        {
-            "assignment_no": 19,
-            "assignment_name": "Tables",
-            "assignment_links": "https://drive.google.com/file/d/1Nw16Km3k34F9DMsXR2ygKIQ2wvN0VGro/view?usp=sharing",
-            "assignment_id": "task19"
-        },
-        {
-            "assignment_no": 20,
-            "assignment_name": "Top N Text Cards",
-            "assignment_links": "https://drive.google.com/file/d/1RvmgygAUq_i-f-1O1nkeccTVTtENOBMi/view?usp=sharing",
-            "assignment_id": "task20"
-        },
-        {
-            "assignment_no": 21,
-            "assignment_name": "Slicers",
-            "assignment_links": "https://drive.google.com/file/d/12EVZdlLef03464UC_6RNihuoXih_GsgT/view?usp=sharing",
-            "assignment_id": "task21"
-        },
-        {
-            "assignment_no": 22,
-            "assignment_name": "Drill up and Drill Down",
-            "assignment_links": "https://drive.google.com/file/d/1JfXA7F-rf44y8ihD-KxuxdS39lgFg89o/view?usp=sharing",
-            "assignment_id": "task22"
-        },
-        {
-            "assignment_no": 23,
-            "assignment_name": "Report Interactions",
-            "assignment_links": "https://drive.google.com/file/d/1LLe0c0oGgVaR7_oQJhJ0jJWIjANl8sxW/view?usp=sharing",
-            "assignment_id": "task23"
-        },
-        {
-            "assignment_no": 24,
-            "assignment_name": "Bookmarks",
-            "assignment_links": "https://drive.google.com/file/d/1Cve9S30DpTpnKSnZs7iLh8bQAquV3td1/view?usp=sharing",
-            "assignment_id": "task24"
-        },
-        {
-            "assignment_no": 25,
-            "assignment_name": "Field Parameters",
-            "assignment_links": "https://drive.google.com/file/d/1rlwkgoRnjQWaPXVFlzWeDkj0QAWzEg8E/view?usp=sharing",
-            "assignment_id": "task25"
-        },
-        {
+            "_id": "67f8e3b6ceac4c1618be8f1b",
             "section_no": 6,
-            "section_name": "Artifical Intelligence",
+            "section_name": "Table Calculations, Advanced Dashboards, Storytelling",
             "section_lectures": [
                 {
-                    "lecture_no": 151,
-                    "lecture_name": "Anomaly Detection",
-                    "lecture_file_path": "Anomaly Detection",
+                    "_id": "67f8e3b6ceac4c1618be8f1c",
+                    "lecture_no": 37,
+                    "lecture_name": "Section Intro 6",
+                    "lecture_file_path": "Section Intro 6",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Anomaly Detection"
+                        "folder_name": "Tableau",
+                        "file_name": "Section Intro 6",
+                        "_id": "67f8e3b6ceac4c1618be8f1d"
                     }
                 },
                 {
-                    "lecture_no": 152,
-                    "lecture_name": "Smart Narrative",
-                    "lecture_file_path": "Smart Narrative",
+                    "_id": "67f8e3b6ceac4c1618be8f1e",
+                    "lecture_no": 38,
+                    "lecture_name": "Downloading the Dataset and Connecting to Tableau",
+                    "lecture_file_path": "Downloading the Dataset and Connecting to Tableau",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Smart Narrative"
+                        "folder_name": "Tableau",
+                        "file_name": "Downloading the Dataset and Connecting to Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8f1f"
                     }
                 },
                 {
-                    "lecture_no": 153,
-                    "lecture_name": "Q and A Visual",
-                    "lecture_file_path": "Q and A Visual",
+                    "_id": "67f8e3b6ceac4c1618be8f20",
+                    "lecture_no": 39,
+                    "lecture_name": "Mapping - how to Set Geographical Roles",
+                    "lecture_file_path": "Mapping - how to Set Geographical Roles",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Q and A Visual"
+                        "folder_name": "Tableau",
+                        "file_name": "Mapping - how to Set Geographical Roles",
+                        "_id": "67f8e3b6ceac4c1618be8f21"
                     }
                 },
                 {
-                    "lecture_no": 154,
-                    "lecture_name": "Decomposition Trees",
-                    "lecture_file_path": "Decomposition Trees",
+                    "_id": "67f8e3b6ceac4c1618be8f22",
+                    "lecture_no": 40,
+                    "lecture_name": "Creating Table Calculations for Gender",
+                    "lecture_file_path": "Creating Table Calculations for Gender",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Decomposition Trees"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating Table Calculations for Gender",
+                        "_id": "67f8e3b6ceac4c1618be8f23"
                     }
                 },
                 {
-                    "lecture_no": 155,
-                    "lecture_name": "Key Influencers",
-                    "lecture_file_path": "Key Influencers",
+                    "_id": "67f8e3b6ceac4c1618be8f24",
+                    "lecture_no": 41,
+                    "lecture_name": "Creating Bins and Distribution for Age",
+                    "lecture_file_path": "Creating Bins and Distribution for Age",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Key Influencers"
+                        "folder_name": "Tableau",
+                        "file_name": "Creating Bins and Distribution for Age",
+                        "_id": "67f8e3b6ceac4c1618be8f25"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f26",
+                    "lecture_no": 42,
+                    "lecture_name": "Leveraging the Power of Parameters",
+                    "lecture_file_path": "Leveraging the Power of Parameters",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Leveraging the Power of Parameters",
+                        "_id": "67f8e3b6ceac4c1618be8f27"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f28",
+                    "lecture_no": 43,
+                    "lecture_name": "How to Create a Tree Map Chart",
+                    "lecture_file_path": "How to Create a Tree Map Chart",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "How to Create a Tree Map Chart",
+                        "_id": "67f8e3b6ceac4c1618be8f29"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f2a",
+                    "lecture_no": 44,
+                    "lecture_name": "Creating a Customer Segmentation Dashboard",
+                    "lecture_file_path": "Creating a Customer Segmentation Dashboard",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Creating a Customer Segmentation Dashboard",
+                        "_id": "67f8e3b6ceac4c1618be8f2b"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f2c",
+                    "lecture_no": 45,
+                    "lecture_name": "Advanced Dashboard Interactivity",
+                    "lecture_file_path": "Advanced Dashboard Interactivity",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Advanced Dashboard Interactivity",
+                        "_id": "67f8e3b6ceac4c1618be8f2d"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f2e",
+                    "lecture_no": 46,
+                    "lecture_name": "Analyzing the Customer Segmentation Dashboard",
+                    "lecture_file_path": "Analyzing the Customer Segmentation Dashboard",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Analyzing the Customer Segmentation Dashboard",
+                        "_id": "67f8e3b6ceac4c1618be8f2f"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f30",
+                    "lecture_no": 47,
+                    "lecture_name": "Creating a Storyline",
+                    "lecture_file_path": "Creating a Storyline",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Creating a Storyline",
+                        "_id": "67f8e3b6ceac4c1618be8f31"
                     }
                 }
             ]
         },
         {
+            "_id": "67f8e3b6ceac4c1618be8f32",
             "section_no": 7,
-            "section_name": "Optimization in Power BI",
+            "section_name": "Advanced Data Preparation",
             "section_lectures": [
                 {
-                    "lecture_no": 156,
-                    "lecture_name": "Pause Visuals",
-                    "lecture_file_path": "Pause Visuals",
+                    "_id": "67f8e3b6ceac4c1618be8f33",
+                    "lecture_no": 48,
+                    "lecture_name": "Section Intro 7",
+                    "lecture_file_path": "Section Intro 7",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Pause Visuals"
+                        "folder_name": "Tableau",
+                        "file_name": "Section Intro 7",
+                        "_id": "67f8e3b6ceac4c1618be8f34"
                     }
                 },
                 {
-                    "lecture_no": 157,
-                    "lecture_name": "Optimization Preset",
-                    "lecture_file_path": "Optimization Preset",
+                    "_id": "67f8e3b6ceac4c1618be8f35",
+                    "lecture_no": 49,
+                    "lecture_name": "What Format Your Data Should Be In",
+                    "lecture_file_path": "What Format Your Data Should Be In",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Optimization Preset"
+                        "folder_name": "Tableau",
+                        "file_name": "What Format Your Data Should Be In",
+                        "_id": "67f8e3b6ceac4c1618be8f36"
                     }
                 },
                 {
-                    "lecture_no": 158,
-                    "lecture_name": "Apply all Slicers Button",
-                    "lecture_file_path": "Apply all Slicers Button",
+                    "_id": "67f8e3b6ceac4c1618be8f37",
+                    "lecture_no": 50,
+                    "lecture_name": "Data Interpreter",
+                    "lecture_file_path": "Data Interpreter",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Apply all Slicers Button"
+                        "folder_name": "Tableau",
+                        "file_name": "Data Interpreter",
+                        "_id": "67f8e3b6ceac4c1618be8f38"
                     }
                 },
                 {
-                    "lecture_no": 159,
-                    "lecture_name": "Performance Analyzer",
-                    "lecture_file_path": "Performance Analyzer",
+                    "_id": "67f8e3b6ceac4c1618be8f39",
+                    "lecture_no": 51,
+                    "lecture_name": "Pivot",
+                    "lecture_file_path": "Pivot",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Performance Analyzer"
+                        "folder_name": "Tableau",
+                        "file_name": "Pivot",
+                        "_id": "67f8e3b6ceac4c1618be8f3a"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f3b",
+                    "lecture_no": 52,
+                    "lecture_name": "Splitting a Column into Multiple Columns",
+                    "lecture_file_path": "Splitting a Column into Multiple Columns",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Splitting a Column into Multiple Columns",
+                        "_id": "67f8e3b6ceac4c1618be8f3c"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f3d",
+                    "lecture_no": 53,
+                    "lecture_name": "MetaData Grid",
+                    "lecture_file_path": "MetaData Grid",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "MetaData Grid",
+                        "_id": "67f8e3b6ceac4c1618be8f3e"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f3f",
+                    "lecture_no": 54,
+                    "lecture_name": "Fixing Geographical Data Errors in Tableau",
+                    "lecture_file_path": "Fixing Geographical Data Errors in Tableau",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Fixing Geographical Data Errors in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8f40"
                     }
                 }
             ]
         },
         {
+            "_id": "67f8e3b6ceac4c1618be8f41",
             "section_no": 8,
-            "section_name": "Power BI New Features and Updates",
+            "section_name": "Clusters, Custom Territories, Design Features",
             "section_lectures": [
                 {
-                    "lecture_no": 160,
-                    "lecture_name": "Power BI New Features and Updates",
-                    "lecture_file_path": "Power BI New Features and Updates",
+                    "_id": "67f8e3b6ceac4c1618be8f42",
+                    "lecture_no": 55,
+                    "lecture_name": "The Challenge - Startup Expansion Analytics",
+                    "lecture_file_path": "The Challenge - Startup Expansion Analytics",
                     "lecture_cloud_link": {
                         "domain_url": "https://storage.googleapis.com/",
                         "bucket": "tutedude694",
-                        "folder_name": "PowerBi",
-                        "file_name": "Power BI New Features and Updates"
+                        "folder_name": "Tableau",
+                        "file_name": "The Challenge - Startup Expansion Analytics",
+                        "_id": "67f8e3b6ceac4c1618be8f43"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f44",
+                    "lecture_no": 56,
+                    "lecture_name": "Custom Territories Via Groups",
+                    "lecture_file_path": "Custom Territories Via Groups",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Custom Territories Via Groups",
+                        "_id": "67f8e3b6ceac4c1618be8f45"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f46",
+                    "lecture_no": 57,
+                    "lecture_name": "Custom Territories Via Geographic Roles",
+                    "lecture_file_path": "Custom Territories Via Geographic Roles",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Custom Territories Via Geographic Roles",
+                        "_id": "67f8e3b6ceac4c1618be8f47"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f48",
+                    "lecture_no": 58,
+                    "lecture_name": "Clustering in Tableau",
+                    "lecture_file_path": "Clustering in Tableau",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Clustering in Tableau",
+                        "_id": "67f8e3b6ceac4c1618be8f49"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f4a",
+                    "lecture_no": 59,
+                    "lecture_name": "Adding a Highlighter",
+                    "lecture_file_path": "Adding a Highlighter",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Adding a Highlighter",
+                        "_id": "67f8e3b6ceac4c1618be8f4b"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f4c",
+                    "lecture_no": 60,
+                    "lecture_name": "Cross-Database Joins",
+                    "lecture_file_path": "Cross-Database Joins",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Cross-Database Joins",
+                        "_id": "67f8e3b6ceac4c1618be8f4d"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f4e",
+                    "lecture_no": 61,
+                    "lecture_name": "Modelling With Clusters",
+                    "lecture_file_path": "Modelling With Clusters",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Modelling With Clusters",
+                        "_id": "67f8e3b6ceac4c1618be8f4f"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f50",
+                    "lecture_no": 62,
+                    "lecture_name": "Saving Your Clusters",
+                    "lecture_file_path": "Saving Your Clusters",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Saving Your Clusters",
+                        "_id": "67f8e3b6ceac4c1618be8f51"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f52",
+                    "lecture_no": 63,
+                    "lecture_name": "New Mobile Features",
+                    "lecture_file_path": "New Mobile Features",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "New Mobile Features",
+                        "_id": "67f8e3b6ceac4c1618be8f53"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f54",
+                    "lecture_no": 64,
+                    "lecture_name": "Section Recap",
+                    "lecture_file_path": "Section Recap",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Section Recap",
+                        "_id": "67f8e3b6ceac4c1618be8f55"
+                    }
+                }
+            ]
+        },
+        {
+            "_id": "67f8e3b6ceac4c1618be8f56",
+            "section_no": 9,
+            "section_name": "Tableau Toolkit",
+            "section_lectures": [
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f57",
+                    "lecture_no": 65,
+                    "lecture_name": "Section Intro 9",
+                    "lecture_file_path": "Section Intro 9",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Section Intro 9",
+                        "_id": "67f8e3b6ceac4c1618be8f58"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f59",
+                    "lecture_no": 66,
+                    "lecture_name": "Data From PDF Files",
+                    "lecture_file_path": "Data From PDF Files",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Data From PDF Files",
+                        "_id": "67f8e3b6ceac4c1618be8f5a"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f5b",
+                    "lecture_no": 67,
+                    "lecture_name": "Connecting to PDF",
+                    "lecture_file_path": "Connecting to PDF",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Connecting to PDF",
+                        "_id": "67f8e3b6ceac4c1618be8f5c"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f5d",
+                    "lecture_no": 68,
+                    "lecture_name": "Connecting to Spatial Files",
+                    "lecture_file_path": "Connecting to Spatial Files",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Connecting to Spatial Files",
+                        "_id": "67f8e3b6ceac4c1618be8f5e"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f5f",
+                    "lecture_no": 69,
+                    "lecture_name": "Joining to Spatial Files",
+                    "lecture_file_path": "Joining to Spatial Files",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Joining to Spatial Files",
+                        "_id": "67f8e3b6ceac4c1618be8f60"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f61",
+                    "lecture_no": 70,
+                    "lecture_name": "Putting It All Together",
+                    "lecture_file_path": "Putting It All Together",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Putting It All Together",
+                        "_id": "67f8e3b6ceac4c1618be8f62"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f63",
+                    "lecture_no": 71,
+                    "lecture_name": "Step and Jump Line Chart",
+                    "lecture_file_path": "Step and Jump Line Chart",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Step and Jump Line Chart",
+                        "_id": "67f8e3b6ceac4c1618be8f64"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f65",
+                    "lecture_no": 72,
+                    "lecture_name": "Viz in Tooltip",
+                    "lecture_file_path": "Viz in Tooltip",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Viz in Tooltip",
+                        "_id": "67f8e3b6ceac4c1618be8f66"
+                    }
+                }
+            ]
+        },
+        {
+            "_id": "67f8e3b6ceac4c1618be8f67",
+            "section_no": 10,
+            "section_name": "Conclusion",
+            "section_lectures": [
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f68",
+                    "lecture_no": 73,
+                    "lecture_name": "Course Overview",
+                    "lecture_file_path": "Course Overview",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Course Overview",
+                        "_id": "67f8e3b6ceac4c1618be8f69"
+                    }
+                },
+                {
+                    "_id": "67f8e3b6ceac4c1618be8f6a",
+                    "lecture_no": 74,
+                    "lecture_name": "Thank You Video",
+                    "lecture_file_path": "Thank You Video",
+                    "lecture_cloud_link": {
+                        "domain_url": "https://storage.googleapis.com/",
+                        "bucket": "tutedude694",
+                        "folder_name": "Tableau",
+                        "file_name": "Thank You Video",
+                        "_id": "67f8e3b6ceac4c1618be8f6b"
                     }
                 }
             ]
